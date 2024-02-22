@@ -1,0 +1,94 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
+/* ------------------------------ */
+
+.container {
+  max-width: 1000px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.block {
+  padding: 100px 0px;
+}
+.card-block {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px 50px;
+  flex-wrap: wrap;
+}
+.card-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #ede4e4;
+  border: 3px solid black;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.248);
+}
+.card-img {
+  background-color: #80808089;
+  padding: 60px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.img-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(128, 128, 128, 0.458);
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.card-text {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
